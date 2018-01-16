@@ -1,0 +1,326 @@
+/*
+Theme Name: JamthunderTheme
+Theme URI: https://jamthunderdj.com
+Author: Richard Blake
+Author URI: https://richblake.me
+Description: Music For All Occasions
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+* {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-text-size-adjust: none; -webkit-backface-visibility: hidden;  margin: 0px; padding: 0px}
+
+.wedPics {float: left;}
+.dj-hide {display: none;}
+body { background-color:#5b5b5b;}
+h1 { color:#FFF; text-align:center; font-family: 'Montserrat', sans-serif;font-size:45px; }
+h1.bg { background-image:url(../jamthunderTheme/images/titlebg-other.png); width:978px; height:51px; background-repeat:no-repeat;  margin-top:40px;}
+h1.bg-about { background-image:url(../jamthunderTheme/images/titlebg-about.png); width:978px; height:51px; background-repeat:no-repeat;  margin-top:40px;}
+h2 { color:#FFFFFF; font-family: 'Montserrat', sans-serif; font-size:29px; margin:0px 0px 15px 0px;}
+h3 { color:#3e3e3e; font-family: 'Montserrat', sans-serif; font-size:25px; text-align:center; margin:25px 0px 25px 0px; padding-bottom:20px; border-bottom:1px solid #e0e0e0;}
+p { color:#FFFFFF; font-family: 'Montserrat', sans-serif; font-size:15px; line-height:24px;}
+ul { text-align:center;}
+ul li { color:#828282; font-family: 'Montserrat', sans-serif; font-size:18px; padding:6px;}
+a { color: #e4d74a; text-decoration:none; font-weight:bold; font-family: 'Montserrat', sans-serif; margin-top:15px;}
+span.number-about { color:#000; font-weight:bold;}
+span.number-contract { color:#e3d555; font-weight:bold;}
+
+/* header */
+header{ height:348px;  position:relative; background-color:#5b5b5b;}
+.slideshow { height:348px; overflow:hidden;}
+.logo { /*position:absolute; top: 0; left: 50%; margin-left: -69px; margin-top: 57px; z-index:500;*/ cursor:pointer;}
+.iphone .hat {display: none;}
+.hat {display:none; position: absolute; top: 50%; left:50%; margin-top: -29px; margin-left: -211px; z-index: 9000;}
+.jamthunder { top: -30px; position: absolute; z-index: 500; left: 50%; margin-top: -72px; margin-left:-67px;}
+.logo h1 { margin-left: -188px; position: absolute; left: 50%; top: 0; margin-top: 160px; z-index: 500; display:none;}
+.logo h1 span { font-weight:bold}
+.logo h2 { color:#ababab; font-size:20px; margin-left:-123px; position: absolute; left: 50%; top: 0; margin-top: 211px; z-index: 500; display:none;}
+
+.mobilenav { display:none;}
+.navigation { display:none; }
+nav { width:968px; height:66px; background-color:#000; position:absolute; z-index:500; bottom:0; left:50%; opacity:0.7; margin-left:-482px;}
+nav ul {}
+nav ul li { display:inline; padding:30px; font-family: 'Montserrat', sans-serif; line-height:66px;}
+nav ul li img.icon { margin-right:10px;}
+nav ul li a {color:#ababab; font-weight:normal; font-size:23px;}
+nav ul li a:hover {  color: #e4d74a;}
+/* about */
+.aboutwrap {background-color:#eaeaea; overflow:hidden; }
+.about { width:968px; margin:0 auto; overflow:hidden; position:relative; }
+.about-thunder { position:absolute; left:366px;}
+.about h1, .about p, .about h2{ color:#444444;}
+.about img.dj { margin:50px 0px 73px 0px; float:left;}
+.welcome { float:right; width:450px; margin:50px 0px 73px 0px;}
+.christmas { width:430px; height:56px; background-image:url(../jamthunderTheme/images/christmas.png); float:right; margin:-125px 18px 0px 0px; cursor:pointer;}
+.christmas h2 { color:#FFFFFF; font-family: 'Montserrat', sans-serif; font-size:18px; text-transform:uppercase; margin:8px 0px 0px 10px; line-height:20px;}
+.book-wedding { width:430px; height:56px; background-image:url(../jamthunderTheme/images/book-wedding.png); float:right; margin:-125px 18px 0px 0px; cursor:pointer;}
+.book-wedding h2 { color:#676664; font-family: 'Montserrat', sans-serif; font-size:18px; text-transform:uppercase; margin:8px 0px 0px 10px; line-height:20px;}
+span.bigger { font-weight:bold; font-family: 'Montserrat', sans-serif; font-size:22px; color: #B27FBB;}
+span.space {margin-left: 33px; margin-right: 5px; }
+/* media */
+.mediawrap {background-color:#7f7f7f; overflow:hidden; }
+.media { width:968px; margin:0 auto; overflow:hidden; position:relative; }
+.media-thunder { position:absolute; left:366px;}
+
+.tucanos-clip { margin:50px 0px 21px 0px; float:left; width:458px; height:289px; cursor:pointer;}
+.party-begin { float:left; margin:50px 0px 30px 60px; width:450px; position:relative;}
+.facebook { position:absolute; top:0px; right:45px;}
+.groupon { position:absolute; top:0px; right:15px;}
+.small-photos { float:left; width:458px; height:197px; margin: 0px 0px 22px 0px;}
+.leftpic { float:left; margin:0px 0px 20px 0px; cursor:pointer;}
+.rightpic { float:right; cursor:pointer;}
+iframe.test { position:absolute; left:310px; top:6px;}
+
+.testimonials{ float:left; margin:-6px 0px 5px 60px; width:450px; position:relative;}
+.blurb { width:350px; height:150px;}
+.blurb p { color:#292929; font-size:17px;}
+span.yellow { color:#e4d74a;}
+
+
+/* wedding */
+.weddingwrap {background-color:#797979; overflow:hidden; }
+.wedding {width: 968px; margin: 0 auto; overflow: hidden; position: relative;  }
+.wedding img.dj { margin:50px 0px 73px 0px; float:left;}
+.wedding-thunder { position:absolute; left:329px;}
+
+/* package */
+.packagewrap {background-color:#747474; overflow:hidden; }
+.package{ width:968px; margin:0 auto; overflow:hidden; position:relative;}
+.package-thunder { position:absolute; left:330px;}
+.packageinfo { margin:12px auto; text-align:center; width:800px; }
+.deals { overflow:hidden; width:295px; height:281px; float:left; border-radius:10px; background-color:#FFFFFF; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; position:relative;}
+.packageA {   margin:20px 0px 73px 0px;  }
+.packageB {  background-color:#414141;  margin:20px 0px 73px 41px; }
+.packageB ul li { color:#dfdfdf}
+.packageB h3 { color:#FFF; border-bottom:1px solid #393939;}
+.packageC { margin:20px 0px 73px 41px;}
+.active { background-color:#e3d555; color:#333;}
+.active h3 { color:#3e3e3e;}
+.active .slide {visibility:hidden;}
+.active ul li { color:#3e3e3e; }
+
+
+/* package animation */
+.slide { height:281px; z-index:200; float:left; width:295px; position:absolute; top:-281px; background-image:url(../jamthunderTheme/images/yellow_bg.png); border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px;   }
+
+.slide h3 { width:200px; height:50px; background-color:#414141;  line-height:50px; font-size:13px; color:#FFF; opacity:1; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; margin:120px auto; cursor:pointer;}
+
+/* contact */
+.contactwrap {background-color:#5b5b5b; overflow:hidden; }
+.contact{ width:968px; margin:0 auto; overflow:hidden; position:relative; }
+.contact-thunder { position:absolute; left:350px;}
+.contract { float:left; width:459px; margin:50px 0px 73px 0px;}
+.form { float:left; margin:35px 0px 73px 60px; -webkit-appearance: none; }
+.form-item {position:relative; margin-bottom:20px;}
+
+input { width:445px; height:58px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; border:none; background-color:#414141; padding:18px; margin:20px 0px 0px 0px; font-size:16px; color:#FFFFFF; font-family: 'Montserrat', sans-serif; -webkit-appearance: none;  }
+input:focus, textarea:focus {outline: 0; -webkit-appearance: none;}
+textarea { width:445px; height:200px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; border:none; background-color:#414141; padding:18px; margin:20px 0px 0px 0px; color:#FFFFFF; font-family: 'Montserrat', sans-serif; font-size:16px; }
+select { width:445px; height:58px;  background-color:#414141; border:1px solid #414141; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; padding:18px; margin:20px 0px 0px 0px; font-size:16px;   font-family: 'Montserrat', sans-serif; color:#fff; /*-webkit-appearance: none; */}
+select.activeChoose { background-color:#e3d555; color:#3e3e3e;}
+select.chosen {background-color:#e3d555; color:#3e3e3e;}
+.packages option { color:#e4d74a; -webkit-appearance: none; }
+input.submit { width:200px; height:50px; float:right; color:#afafaf; font-family: 'Montserrat', sans-serif; cursor:pointer;}
+input.submit:hover { /*background-color: #e4d74a; color:#414141;*/}
+span.errors { position: absolute; right: 15px; top:36px; background-color:#e4d74a; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; padding:5px; color:#414141; font-family: 'Montserrat', sans-serif; font-style:italic; font-size:12px;}
+span.errors1 { position: absolute; right: 15px; top:186px; background-color:#e4d74a; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; padding:5px; color:#414141; font-family: 'Montserrat', sans-serif; font-style:italic; font-size:12px;}
+
+::-webkit-input-placeholder { font-size:16px;   font-family: 'Montserrat', sans-serif; color:#FFF }
+:-moz-placeholder { /* Firefox 18- */   font-family: 'Montserrat', sans-serif; font-size:16px; color:#FFF}
+::-moz-placeholder {  /* Firefox 19+ */   font-family: 'Montserrat', sans-serif; font-size:16px; color:#FFF }
+:-ms-input-placeholder {  font-family: 'Montserrat', sans-serif;  font-size:16px; color:#FFF }
+
+
+/* thanks */
+.thankswrap {background-color:#282828; overflow:hidden; display:none;}
+.thanks {width: 968px; margin: 0 auto; overflow: hidden; position: relative;  }
+.thanks img.dj { margin:50px 0px 73px 0px; float:left;}
+.thanks-thunder { position:absolute; left:314px;}
+.thanksinfo { margin:30px 0px 15px 0px; text-align:center; }
+
+
+/* footer */
+.footerwrap {background-color:#000; height:60px; overflow:hidden; }
+.footer {width: 968px; height:60px; margin: 0 auto; overflow: hidden; position: relative;  }
+.footerinfo { margin:2px 0px 10px 0px; text-align:center; }
+.footerinfo p { font-size:13px; line-height:18px;}
+
+
+
+
+
+.scrollup{ width:40px; height:40px; opacity:0.8;position:fixed; bottom:50px;right:75px;display:none;text-indent:-9999px; background: url(../jamthunderTheme/images/icon_top1.png) no-repeat;}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+
+p{ font-size:13px;}	
+h2{ margin:0px 0px 10px 0px}
+	
+header { height:185px; position:relative; z-index:500;}	
+nav, .slideshow { display:none;}
+.navigationwrap { height:0px; transition:height 0.5s; -webkit-transition:height 0.5s; background-color:#FF0000; overflow:hidden; position:relative; }	
+.navigationwrap.activeNav { height:210px; }
+.navigation {  z-index:100; display:block;  }
+.navigation ul li { background-color:#000; padding:13px 0px 13px 0px; border-bottom:1px solid #222; font-size:15px; }
+.navigation ul li:focus { }
+.navigation ul li a { padding:10px 0px 10px 0px; color:#7f7f7f; font-weight:lighter;}
+.navigation ul li a:hover { color:#3e3e3e}
+.navigation ul li:hover { background-color:#e3d555;}
+.mobilenav { display:block; position:absolute; right:6px; top:6px; cursor:pointer;}
+
+.logo {}
+.logo h1 { margin-left: -105px; position: absolute; left: 50%; top:0; margin-top: 116px; z-index: 500; display:none; font-size:28px;}
+.logo h2 {color: #ababab; font-size: 16px; margin-left: -85px; position: absolute; left: 50%; top: 0; margin-top: 152px; z-index: 500; display: none; }
+.jamthunder { width:90px; height:90px; margin-left:-33px; margin-top: -107px;}
+
+.about { width:100%; padding-left:5px; padding-right:5px;}
+h1 { font-size:35px; display:block; float:left; margin-bottom:15px;}
+h1.bg-about { background-image:none; width:316px; height:35px; display:block; margin:15px auto;}
+.about-thunder { position:absolute; left:83px; top:15px; height:31px; width:19px;}
+.about img.dj { width:300px; height:225px; margin:55px 0px 0px 5px; display:block; float:none;}
+.welcome { float:left; width:100%; margin:20px 0px 30px 0px;}
+.christmas { width:300px; height:40px; margin:-20px 0px 30px 3px; background-image:
+url(../images/christmas-iphone.png); float:left;}
+.christmas h2 { font-size:13px; margin:3px 0px 0px 10px; line-height:16px;}
+.book-wedding { width:300px; height:40px; margin:-20px 0px 30px 3px; background-image:url(../jamthunderTheme/images/book-wedding-iphone.png); float:left;}
+.book-wedding h2 { font-size:13px; margin:3px 0px 0px 10px; line-height:16px;}
+span.bigger { font-size:15px; }
+
+
+
+.media { width:100%;  padding-left:5px; padding-right:5px;}
+h1.bg{ background-image:none; width:316px; height:35px; display:block; margin:15px auto;} 
+.media-thunder { position:absolute; left:77px; top:15px; height:31px; width:19px;}
+.party-begin { width:100%; margin:50px 0px 50px 0px;}
+.small-photos { display:none;}
+.tucanos-clip { width:300px; height:225px; display:block; float:none; margin: 50px 0px -8px 0px; }
+.tucanos-clip img { width:300px; height:225px; margin:0px 0px 0px 5px;}
+iframe.test { position:absolute; left:0px; top:35px; }
+.party-begin p { margin-top:30px;}
+.testimonials { display:none;}
+.blurb { width:100%; height:250px;}
+
+.wedding { width:100%;  padding-left:5px; padding-right:5px;}
+.wedding img.dj { width:300px; height:225px; margin:55px 0px 0px 5px; display:block; float:none;}
+.wedding-thunder { position:absolute; left:40px; top:15px; height:31px; width:19px;}
+
+.package { width:100%; padding-left:5px; padding-right:5px; -webkit-backface-visibility: hidden}
+.package-thunder { position:absolute; left:51px; top:15px; height:31px; width:19px;}
+.packageinfo { width:100%; margin:0px 0px 15px 0px; text-align:left;}
+
+
+.packageA { margin:20px 0px 13px 7px;}
+.packageB { margin:20px 0px 13px 7px;}
+.packageC { margin:20px 0px 53px 7px;}
+
+
+.contact { width:100%; padding-left:5px; padding-right:5px;}
+.contact-thunder { position:absolute; left:61px; top:15px; height:31px; width:19px;}
+.contract { width:100%; margin:17px 0px 15px 0px;}
+.form { margin:0px 0px 73px 0px;}
+input, select, textarea { width:300px;}
+select { -webkit-appearance: none; }
+span.errors { position: absolute; right: 15px; top:36px; background-color:#e4d74a; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; padding:5px; color:#414141; font-family: 'Montserrat', sans-serif; font-style:italic; font-size:10px;}
+span.errors1 { position: absolute; right: 15px; top:186px; background-color:#e4d74a; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; padding:5px; color:#414141; font-family: 'Montserrat', sans-serif; font-style:italic; font-size:10px;}
+
+.thanks { width:100%;  padding-left:5px; padding-right:5px;}
+.thanks-thunder { height:31px; width:19px; left:34px;}
+
+.scrollup { right:0;}
+
+.footer {width:100%;  padding-left:5px; padding-right:5px;}
+.wedPics {float: left; display: none;}
+.dj-hide {display: block; width: 300px;
+height: 225px;
+margin: 0px 0px 0px 5px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation : landscape) {
+	h1 { font-size:35px; display:block; float:left; margin-bottom:15px; margin-left:50px;}
+	h1.bg { margin-left:147px;}
+	h2 {font-size:22px;}
+	.about img.dj { float:left; margin:15px 0px 0px 5px;}
+	.about-thunder { left:224px;}
+	.media-thunder { left:220px;}
+	.wedding-thunder { left:186px;}
+	.package-thunder { left:192px}
+	.contact-thunder { left:204px;}
+	.contract { width:500px; text-align:center; margin:17px 0px 15px 30px;}
+	.contract p a { text-align:left;}
+	h1.bg-about { margin-left:147px;}
+	.welcome, .party-begin  { float:left; width:235px; margin:10px 0px 30px 10px;}
+	.tucanos-clip { float:left; margin:15px 0px 0px 5px;}
+	.wedding img.dj { float:left; margin:15px 0px 0px 5px;}
+	.packageinfo { width:500px; margin:0 auto 0px 30px; display:block; text-align:center;}
+	.packageA { margin:20px 0px 13px 150px;}
+	.packageB { margin:20px 0px 13px 150px;}
+	.packageC { margin:20px 0px 53px 150px;}
+	.form {margin:0px auto 73px 129px;}
+	.testimonials { display:none;}
+	iframe.test { top:30px;}
+	.christmas { margin-top:-185px;}
+	.book-wedding { margin-top:-185px;}
+	
+	
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px)  {
+	
+	body { -webkit-backface-visibility: hidden;}
+	h1.bg { background-image:none;}
+	nav { width:100%; margin-left:0px; left:0px}
+	nav ul li { padding:28px;}
+	nav ul li img { display:none;}
+	h1.bg-about { background-image:none; width:858px;}
+	h1.bg { width:879px;}
+	.about img.dj { width:381px; height:285px;}
+	.about-thunder { left:319px;}
+	.welcome { float: right; width: 350px; margin: 50px 204px 73px 0px;}
+	.about, .media, .wedding, .package, .contact, .thanks, .footer { padding:5px;} 
+	.packages { -webkit-backface-visibility: hidden;}
+	.packageB { margin:20px 0px 73px 42px}
+	.packageinfo { width: 661px; margin-left: 45px;}
+	.deals, .slide { width:229px; height:231px;}
+	ul li { font-size:14px;}
+	.slide h3 { margin: 95px auto;}
+	.christmas { height:51px; width:381px; float:left; background-image:url(../jamthunderTheme/images/christmas-ipad.png); margin-top:-110px;}
+	.christmas h2 { color:#FFFFFF; font-family: 'Montserrat', sans-serif; font-size:16px; text-transform:uppercase; margin:6px 0px 0px 10px; line-height:20px;}
+	.book-wedding { height:51px; width:381px; float:left; background-image:url(../jamthunderTheme/images/book-wedding-ipad.png); margin-top:-110px;}
+	.book-wedding h2 { color:#676664 font-family: 'Montserrat', sans-serif; font-size:16px; text-transform:uppercase; margin:6px 0px 0px 10px; line-height:20px;}
+	span.bigger { font-size:18px;  }
+	
+	.tucanos-clip, .tucanos-clip img { width:381px; height:240px;}
+	iframe.test { left: 0px; top: 33px;}
+	.party-begin p { margin-top:25px}
+	.small-photos img { width:169px; height:106px;}
+	.rightpic { float:left; margin-left:43px;}
+	input, select, textarea { width:395px;}
+	.media-thunder { left:329px;}
+	.wedding-thunder { left:286px;}
+	.package-thunder { left:293px}
+	.contact-thunder { left:307px;}
+	.thanks-thunder { left:270px;}
+	
+	.party-begin { margin:50px 0px 30px 23px; width: 350px;}
+	.testimonials { margin: -6px 0px 30px -55px;}
+	.small-photos { margin: -87px 0px 0px 0px;}
+	
+	.wedding img.dj { width:381px; height:285px;}
+	.contract { width:315px;}
+	
+	.blurb { height:150px;}
+	.packageC { margin:20px 0px 73px 34px;}
+	.packageB { margin:20px 0px 73px 35px;}
+	.form { margin:35px 0px 73px 45px;}
+	input.submit { -webkit-backface-visibility: hidden;}
+	.scrollup { right:0px;}
+	.footer {width:100%; }
+	
+}
