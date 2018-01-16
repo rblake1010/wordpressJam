@@ -1,0 +1,173 @@
+/*
+Theme Name: SG Simple
+Template: sg-window
+Author: Cats_456
+Author URI: http://wpblogs.ru/themes/
+Theme URI: http://wpblogs.ru/themes/blog/theme/sg-simple/
+Description: SG Simple is a simple yet customizable theme for WordPress. SG Simple has responsive design and a number of options in the Customizer (Google fonts, many layouts, custom sidebars, custom widgets, social icons, buttons and more). Supports popular plugins Jetpack and WooCommerce. See the demo at http://wpblogs.info/demo/sgsimple/.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, dark, gray, green, black, blue, left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, fluid-layout, responsive-layout, custom-background, custom-header, flexible-header, full-width-template, custom-menu, featured-images, sticky-post, translation-ready, photoblogging, custom-colors, editor-style, theme-options, threaded-comments
+Text Domain: sgsimple
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* sidebars */
+
+.image-wrapper img {
+	width: 1680px;
+}
+
+.blog .default .content-container, 
+.archive .default .content-container {
+	margin-bottom: 20px;
+}
+
+#page .entry-meta a {
+	color: blue;
+}
+
+.site .comments-area,
+.content,
+.nothing-found,
+.content-container,
+.entry-summary{
+	border-radius: 0;
+}
+
+#page  .widget.sgwindow_items_portfolio .element .entry-title,
+#page  .widget.sgwindow_items_portfolio .element .entrytitle,
+#page  .widget.sgwindow_items_category  .element .entry-title,
+#page  .widget.sgwindow_items_category .element .entrytitle {
+    background: transparent;
+}
+
+.default .entry-thumbnail img {
+	margin: 0;
+}
+
+/* Navigation */
+
+#page .previous-image,
+#page .next-image,
+#page .nav-link .nav-previous,
+#page .nav-previous-one,
+#page .nav-link .nav-next  {
+	font-weight: bold;
+	color: rgb(68,68,68);
+	text-decoration: none;
+	user-select: none;
+	padding: .2em 1.2em;
+	outline: none;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 2px;
+	background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+	box-shadow: none;
+	transition: all .218s ease 0s;
+}
+
+#page .previous-image:hover,
+#page .next-image:hover,
+#page .nav-link .nav-previous:hover,
+#page .nav-previous-one:hover,
+#page .nav-link .nav-next:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+#page .previous-image:active,
+#page .next-image:active,
+#page .nav-link .nav-previous:active,
+#page .nav-previous-one:active,
+#page .nav-link:active {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+#page .nav-link a {
+	background: transparent;
+	box-shadow: none;
+}
+
+#page .widget.woocommerce.widget_product_search, #page  .wide .widget.widget_search {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#page .widget.sgwindow_page {
+  color: #666;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#page .transparent  .site-content,
+#page .transparent  .content-container {
+	background: transparent;
+	border: none;
+}
+
+.sidebar-footer .widget.sgwindow_page .entry-title {
+  color: #000;
+}
+
+#page .column .widget.sgwindow_items_portfolio .entry-title, 
+#page .wide .widget.sgwindow_items_portfolio .entry-title, 
+#page .column .widget.sgwindow_items_category .entry-title,
+#page .wide .widget.sgwindow_items_category .entry-title {
+	color: #fff;
+}
+
+#page .column .widget.sgwindow_product .element, 
+#page .column .widget.sgwindow_items_portfolio .element, 
+#page .column .widget.sgwindow_items_category .element, 
+#page .column .widget.sgwindow_items .element {
+	border: 1px solid #333;
+}
+
+#page .wide .widget.sgwindow_product .element, 
+#page .wide .widget.sgwindow_items_portfolio .element, 
+#page .wide .widget.sgwindow_items_category .element, 
+#page .wide .widget.sgwindow_items .element {
+	border: 1px solid #aaa;
+}
+
+.sidebar-before-footer.wide,
+.sidebar-footer {
+	border-top: 1px solid #aaa;
+}
+
+.header-wrap {
+	border-bottom: 1px solid #aaa;
+}
+
+.boxed-image .image-wrapper {
+	padding: 20px;
+}
+
+#page .project a:before {
+	color: blue;
+}
+
+#page .comment-metadata, 
+#page .comment-author.vcard {
+	display: block;
+}
+
+#page .comment-metadata {
+	padding: 0 50px;
+}
+
+#page .woocommerce-breadcrumb a,
+#page .woocommerce-breadcrumb {
+	color: #ccc;
+}
+
+#page .site-title a:hover {
+	color: #ccc;
+}
